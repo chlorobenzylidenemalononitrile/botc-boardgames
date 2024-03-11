@@ -350,4 +350,60 @@
 "team": "demon",
 "ability": "Each night*, choose a player: they die. The nearest alive good player receives a fear token: their abilities have no effect on you, and you register as good to them if possible. The first player with 2 fear tokens also dies."
 }
+{
+"id": "Catan Robber",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/shadows.png",
+"firstNight": 0,
+"firstNightReminder":"",
+"otherNight": 0,
+"otherNightReminder": "",
+"reminders": [],
+"remindersGlobal": [],
+"setup": false,
+"name": "Catan Robber",
+"team": "traveller",
+"ability": "Your neighbors are drunk. Each day, your neighbors may attempt a 2d6 roll, then you may attempt 3 2d6 rolls. The first player to roll a 7 can move you anywhere."
+}
+ {
+"id": "UNO Reverse Card",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/shadows.png",
+"firstNight": 0,
+"firstNightReminder":"",
+"otherNight": 0,
+"otherNightReminder": "",
+"reminders": [],
+"remindersGlobal": [],
+"setup": false,
+"name": "UNO Reverse Card",
+"team": "traveller",
+"ability": "If you were funny today, you can't be exiled: if a player calls for an exile vote on you, they are exiled instead, immediately."
+}
+ {
+"id": "Hungry Hungry Hippo",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/shadows.png",
+"firstNight": 0,
+"firstNightReminder":"",
+"otherNight": 0,
+"otherNightReminder": "",
+"reminders": [],
+"remindersGlobal": [],
+"setup": false,
+"name": "Hungry Hungry Hippo",
+"team": "traveller",
+"ability": "Something bad might happen to the player(s) who tapped your back the least today."
+}
+ {
+"id": "Spymaster",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/shadows.png",
+"firstNight": 0,
+"firstNightReminder":"",
+"otherNight": 0,
+"otherNightReminder": "",
+"reminders": [],
+"remindersGlobal": [],
+"setup": false,
+"name": "Spymaster",
+"team": "traveller",
+"ability": "Each day, once nominations open, silence a player: they may not nominate or vote today, even if you are exiled."
+}
 ]
