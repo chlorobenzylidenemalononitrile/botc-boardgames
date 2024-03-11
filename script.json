@@ -2,7 +2,7 @@
  { "id": "_meta", "name": "Board Game Bumble Rumble", "author": "awedish" },
 {
 "id": "Forensic Scientist",
-"image": "https://li-evelyn.github.io/botc-scythe/assets/anna.png",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/forensic%20sci.png",
 "firstNight": 4,
 "firstNightReminder":"",
 "otherNight": 0,
@@ -16,7 +16,7 @@
 },
 {
 "id": "Ambassador",
-"image": "link",
+"image": "https://github.com/Awedish/botc-boardgames/blob/main/ambassador.png",
 "firstNight": 5,
 "firstNightReminder":"",
 "otherNight": 11,
@@ -30,7 +30,7 @@
 },
 {
 "id": "Woodland Alliance",
-"image": "link",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/Woodland_Alliance_-_Symbol.png",
 "firstNight": 8,
 "firstNightReminder":"",
 "otherNight": 17,
@@ -44,7 +44,7 @@
 },
 {
 "id": "Clan Albion",
-"image": "link",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/Albion.png",
 "firstNight": 6,
 "firstNightReminder":"",
 "otherNight": 15,
@@ -58,7 +58,7 @@
 },
 {
 "id": "Mons Insurance",
-"image": "link",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/mons%20insurance.png",
 "firstNight": 7,
 "firstNightReminder":"",
 "otherNight": 16,
@@ -72,7 +72,7 @@
 },
 {
 "id": "Quarantine Specialist",
-"image": "link",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/quarantine%20specialist.png",
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 3,
@@ -86,7 +86,7 @@
 },
 {
 "id": "Mad Hatter",
-"image": "link",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/mad%20hatter.png",
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 14,
@@ -100,7 +100,7 @@
 },
 {
 "id": "Necromancer",
-"image": "link",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/necromancer.png",
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 12,
@@ -114,7 +114,7 @@
 },
 {
 "id": "Seer",
-"image": "link",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/seer.png",
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 18,
@@ -128,7 +128,7 @@
 },
 {
 "id": "Dionysus",
-"image": "link",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/dionysus.png",
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 1,
@@ -142,7 +142,7 @@
 },
 {
 "id": "Guard",
-"image": "link",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/guard.png",
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 0,
@@ -156,7 +156,7 @@
 },
 {
 "id": "Loyal Servant Of Arthur",
-"image": "link",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/loyal%20servant.png",
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 13,
@@ -170,7 +170,7 @@
 },
 {
 "id": "Quartermaster",
-"image": "link",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/quartermaster.png",
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 0,
@@ -184,7 +184,7 @@
 },
 {
 "id": "Exile",
-"image": "link",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/exile.png",
 "firstNight": 9,
 "firstNightReminder":"",
 "otherNight": 19,
@@ -198,7 +198,7 @@
 },
 {
 "id": "RINNEGATO",
-"image": "link",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/rinnegato.png",
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 0,
@@ -212,7 +212,7 @@
 },
 {
 "id": "Jester",
-"image": "link",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/jester.png",
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 10,
@@ -226,7 +226,7 @@
 },
 {
 "id": "Happy Salmon",
-"image": "link",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/happy%20salmon.png",
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 20,
@@ -240,7 +240,7 @@
 },
 {
 "id": "Society of Falling Light",
-"image": "link",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/falling%20light.png",
 "firstNight": 1,
 "firstNightReminder":"",
 "otherNight": 2,
@@ -254,7 +254,7 @@
 },
 {
 "id": "Bene Gesserit",
-"image": "link",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/bene%20gesserit.png",
 "firstNight": 2,
 "firstNightReminder":"",
 "otherNight": 0,
@@ -268,7 +268,7 @@
 },
 {
 "id": "Magus of Cloaks",
-"image": "link",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/magus%20of%20cloaks.png",
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 4,
@@ -282,7 +282,7 @@
 },
 {
 "id": "Lisa",
-"image": "link",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/lisa.png",
 "firstNight": 3,
 "firstNightReminder":"",
 "otherNight": 5,
@@ -296,7 +296,7 @@
 },
 {
 "id": "The Yin Brotherhood",
-"image": "link",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/yin.png",
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 6,
@@ -310,7 +310,7 @@
 },
 {
 "id": "Deathwalker",
-"image": "link",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/deathwalker.png",
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 7,
@@ -324,21 +324,21 @@
 },
 {
 "id": "Secret Hitler",
-"image": "link",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/hitler.png",
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 8,
 "otherNightReminder": "",
 "reminders": [],
 "remindersGlobal": [],
-"setup": false,
+"setup": true,
 "name": "Secret Hitler",
 "team": "demon",
 "ability": "You think you're a townsfolk, and register as that townsfolk, but aren't. Starting on your 4th day, evil wins if you're executed or no alive player is executed, town wins at night if 3 or less players are alive. Up to 2 players die each night*."
 },
 {
 "id": "Shadows Flicker Like Flame",
-"image": "link",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/shadows.png",
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 9,
