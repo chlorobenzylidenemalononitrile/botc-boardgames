@@ -26,7 +26,7 @@
 "setup": false,
 "name": "Ambassador",
 "team": "townsfolk",
-"ability": "On your first night, learn 2 characters: Exactly one of them is in play. Once per day, you may challenge a player's public role claim. Tonight, if they were the role they claimed, you die. If not, they die."
+"ability": "On your first night, learn 2 characters: Exactly one of them is in play. Once per game, you may challenge a player's public role claim. Tonight, if they were the role they claimed, you die. If not, they die."
 },
 {
 "id": "Woodland Alliance",
@@ -138,7 +138,7 @@
 "setup": false,
 "name": "Dionysus",
 "team": "townsfolk",
-"ability": " When a Minion dies by execution, all other players are drunk until dusk tomorrow."
+"ability": " When a Minion dies by execution, all other players are drunk until dusk tomorrow. Travellers are only drunk during the night instead."
 },
 {
 "id": "Guard",
@@ -334,7 +334,7 @@
 "setup": true,
 "name": "Secret Hitler",
 "team": "demon",
-"ability": "You think you're a townsfolk, and register as that townsfolk, but aren't. Starting on your 4th day, evil wins if you're executed or no alive player is executed, town wins at night if 3 or less players are alive. Up to 2 players die each night*."
+"ability": "You think you're a townsfolk, and register as that townsfolk, but aren't. Starting on your 3rd/4th (10-12p/13-15p) day, evil wins if you're executed or no living player is executed, town wins at night if 3 or less players are alive. Up to 2 players die each night*."
 },
 {
 "id": "Shadows Flicker Like Flame",
