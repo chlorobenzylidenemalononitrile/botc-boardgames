@@ -16,7 +16,7 @@
 },
 {
 "id": "Ambassador",
-"image": "https://github.com/Awedish/botc-boardgames/blob/main/ambassador.png",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/ambassador.png",
 "firstNight": 5,
 "firstNightReminder":"",
 "otherNight": 11,
