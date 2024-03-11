@@ -2,7 +2,7 @@
  { "id": "_meta", "name": "Board Game Bumble Rumble", "author": "awedish" },
 {
 "id": "Forensic Scientist",
-"image": "link",
+"image": "https://li-evelyn.github.io/botc-scythe/assets/anna.png",
 "firstNight": 4,
 "firstNightReminder":"",
 "otherNight": 0,
