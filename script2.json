@@ -419,5 +419,19 @@
 "name": "Spymaster",
 "team": "traveller",
 "ability": "Each day, once nominations open, silence a player: they may not nominate or vote today, even if you are exiled."
+},
+{
+"id": "Awedish",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/AweWave.png",
+"firstNight": 0,
+"firstNightReminder":"",
+"otherNight": 0,
+"otherNightReminder": "",
+"reminders": [],
+"remindersGlobal": [],
+"setup": false,
+"name": "Awedish",
+"team": "fabled",
+"ability": "Some characters leave tokens on other players. Players may have multiple copies of the same token, but duplicate copies have no effect, except to increase token count. All tokens persist between nights, even when the character dies."
 }
 ]
