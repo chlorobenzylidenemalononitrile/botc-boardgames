@@ -253,7 +253,7 @@
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 13,
-"otherNightReminder": "? IF: the demon was executed today, the Magus becomes the new demon. IF: a minion was executed today, the magnus may become that minion.",
+"otherNightReminder": "? IF: the demon was executed today, the Magus becomes the new demon. IF: a minion was executed today, the Magus may become that minion.",
 "reminders": [],
 "setup": false,
 "name": "Magus of Cloaks",
