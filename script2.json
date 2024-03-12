@@ -4,7 +4,7 @@
 "id": "Forensic Scientist",
 "image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/forensic%20sci.png",
 "firstNight": 4,
-"firstNightReminder":"Show the token of whichever Demon is in play.",
+"firstNightReminder":"Show the token of whichever demon is in play.",
 "otherNight": 0,
 "otherNightReminder": "",
 "reminders": [],
@@ -97,12 +97,12 @@
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 31,
-"otherNightReminder": "@ Necromancer may choose to use their ability; if yes, they point to a dead player and lose all their tokens. If that player is a townsfolk, they are now alive.",
+"otherNightReminder": "@ Necromancer may choose to use their ability; if yes, they point to a dead player and lose all their tokens. If that player is a townsfolk, they are now alive, and have a stack of dead votes.",
 "reminders": [],
 "setup": false,
 "name": "Necromancer",
 "team": "townsfolk",
-"ability": "Once per game, at night*, discard all tokens you are holding to choose a dead player: if they are a Townsfolk, they are resurrected."
+"ability": "Once per game, at night*, discard all tokens you are holding to choose a dead player: if they are a Townsfolk, they are resurrected and have unlimited dead votes."
 },
 {
 "id": "Seer",
@@ -128,7 +128,7 @@
 "setup": false,
 "name": "Dionysus",
 "team": "townsfolk",
-"ability": " When a Minion dies by execution, all other players are drunk until dusk tomorrow. Travellers are only drunk until dawn. "
+"ability": " When a Minion dies by execution, all other players are drunk until dusk tomorrow. Travellers are only drunk until dawn."
 },
 {
 "id": "Guard",
@@ -253,25 +253,25 @@
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 13,
-"otherNightReminder": "? IF: the demon was executed today, the Magus becomes the new demon. IF: a minion was executed today, the Magus may become that minion.",
+"otherNightReminder": "? IF: the demon was executed today and 4+ players live, the Magus becomes the new demon. IF: a minion was executed today, the Magus may become that minion.",
 "reminders": [],
 "setup": false,
 "name": "Magus of Cloaks",
 "team": "minion",
-"ability": "At night, if a minion was executed, you may swap characters with them. If the demon is executed and at least 5 players are alive, become the new demon."
+"ability": "At night, if a minion was executed, you may swap characters with them. If the demon is executed and at least 4 players are still alive, become the new demon."
 },
 {
 "id": "Lisa",
 "image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/lisa.png",
 "firstNight": 3,
-"firstNightReminder":"@ The Witch points to a player. If that player nominates tomorrow they die immediately.",
+"firstNightReminder":"@ The Witch points to a player. If that player nominates tomorrow they die immediately and lose their dead vote.",
 "otherNight": 14,
-"otherNightReminder": "@ The Witch points to a player. If that player nominates tomorrow they die immediately.",
+"otherNightReminder": "@ The Witch points to a player. If that player nominates tomorrow they die immediately and lose their dead vote.",
 "reminders": ["Cursed"],
 "setup": false,
 "name": "Lisa",
 "team": "minion",
-"ability": "Each night, choose a player: if they nominate tomorrow, they die. If just 3 players live, you lose this ability."
+"ability": "Each night, choose a player: if they nominate tomorrow, they die and lose one dead vote. If just 3 players live, you lose this ability."
 },
 {
 "id": "The Yin Brotherhood",
