@@ -97,7 +97,7 @@
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 31,
-"otherNightReminder": "@ Necromancer may choose to use their ability; if yes, they point to a dead player and lose all their tokens. If that player is a townsfolk, they are now alive, and have a stack of dead votes.",
+"otherNightReminder": "@ Necromancer may choose to use their ability; if yes, they point to a dead player and lose all their tokens. If that player is a townsfolk, they are now alive, and have unlimited dead votes.",
 "reminders": [],
 "setup": false,
 "name": "Necromancer",
