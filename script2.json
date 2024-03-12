@@ -26,7 +26,7 @@
 "setup": false,
 "name": "Ambassador",
 "team": "townsfolk",
-"ability": "On your first night, learn 2 characters: Exactly one of them is in play. Once per day, you may challenge a player's public role claim. Tonight, if they were the role they claimed, you die. If not, they die."
+"ability": "You start knowing two characters: exactly one is in-play. Once per game, you may challenge a player's public role claim. Tonight, if they were the role they claimed, you die. If not, they die."
 },
 {
 "id": "Woodland Alliance",
