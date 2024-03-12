@@ -128,7 +128,7 @@
 "setup": false,
 "name": "Dionysus",
 "team": "townsfolk",
-"ability": " When a Minion dies by execution, all other players are drunk until dusk tomorrow."
+"ability": " When a Minion dies by execution, all other players are drunk until dusk tomorrow. Travellers are only drunk until dawn. "
 },
 {
 "id": "Guard",
