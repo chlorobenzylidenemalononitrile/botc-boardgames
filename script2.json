@@ -271,7 +271,7 @@
 "setup": false,
 "name": "Lisa",
 "team": "minion",
-"ability": "Each night, choose a player: if they nominate tomorrow, they die and lose one dead vote. If just 3 players live, you lose this ability."
+"ability": "Each night, choose a player: if they nominate tomorrow, they die and lose their dead vote. If just 3 players live, you lose this ability."
 },
 {
 "id": "The Yin Brotherhood",
