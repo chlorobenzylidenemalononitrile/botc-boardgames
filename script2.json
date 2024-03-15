@@ -84,12 +84,12 @@
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 33,
-"otherNightReminder": "? IF there is a player that was most mad the Mad Hatter was evil, show that player's character token.",
+"otherNightReminder": "? IF there is a player that was most mad the Mad Hatter was evil, show that player's character token and another character token of opposite alignment.",
 "reminders": [],
 "setup": false,
 "name": "Mad Hatter",
 "team": "townsfolk",
-"ability": "Each night*, learn the character of the player that was the most mad you were evil yesterday, if possible."
+"ability": "Each night*, learn 1 good & 1 evil character, 1 of which is the character of the player that was the most mad you were evil yesterday, if applicable."
 },
 {
 "id": "Necromancer",
