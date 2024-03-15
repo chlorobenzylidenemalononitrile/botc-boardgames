@@ -203,10 +203,10 @@
 "otherNight": 2,
 "otherNightReminder": "? IF the Jester was executed today, a random Townsfolk dies.",
 "reminders": ["DEAD"],
-"setup": false,
+"setup": true,
 "name": "Jester",
 "team": "outsider",
-"ability": "You win if executed. When executed, a random Townsfolk dies tonight. You lose if you are alive at the end of the game."
+"ability": "You win if executed. When executed, a random Townsfolk dies tonight. You lose if you are alive at the end of the game. [+1 Clan Albion]"
 },
 {
 "id": "5D Pawn",
