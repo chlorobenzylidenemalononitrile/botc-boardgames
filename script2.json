@@ -5,13 +5,13 @@
 "image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/forensic%20sci.png",
 "firstNight": 4,
 "firstNightReminder":"Show the token of whichever demon is in play.",
-"otherNight": 0,
-"otherNightReminder": "",
+"otherNight": 26,
+"otherNightReminder": "? IF the demon killed the forensic scientist: show the hand symbol for how many steps.",
 "reminders": [],
 "setup": false,
 "name": "Forensic Scientist",
 "team": "townsfolk",
-"ability": "You start knowing which demon is in play."
+"ability": "You start knowing which demon is in play. If the Demon kills you, you learn how many steps they are from their nearest Minion."
 },
 {
 "id": "Ambassador",
@@ -56,14 +56,14 @@
 "id": "Mons Insurance",
 "image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/mons%20insurance.png",
 "firstNight": 7,
-"firstNightReminder":"@ Mons Insurance points to two players. Show the hand signal for the number of tokens the two players have in total.",
+"firstNightReminder":"@ Mons Insurance points to a player. Show the hand signal for the number of tokens that player has. Add an insurance token to that player.",
 "otherNight": 35,
-"otherNightReminder": "@ Mons Insurance points to two players. Show the hand signal for the number of tokens the two players have in total.",
-"reminders": [],
+"otherNightReminder": "@ Mons Insurance points to a player. Show the hand signal for the number of tokens that player has. Add an insurance token to that player.",
+"reminders": ["T-Insurance"],
 "setup": false,
 "name": "Mons Insurance",
 "team": "townsfolk",
-"ability": "Each night, choose 2 players: learn their combined token count."
+"ability": "Each night, choose a player: Learn how many tokens they have, then place an insurance token: If they would die from the Demon, you die instead."
 },
 {
 "id": "Quarantine Specialist",
@@ -97,12 +97,12 @@
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 31,
-"otherNightReminder": "@ Necromancer may choose to use their ability; if yes, they point to a dead player and lose all their tokens. If that player is a townsfolk, they are now alive, and have unlimited dead votes.",
+"otherNightReminder": "@ Necromancer may choose to use their ability; if yes, they point to a dead player. If the Necromancer had at least one token, and that player is a townsfolk, they are now alive.",
 "reminders": [],
 "setup": false,
 "name": "Necromancer",
 "team": "townsfolk",
-"ability": "Once per game, at night*, discard all tokens you are holding to choose a dead player: if they are a Townsfolk, they are resurrected and have unlimited dead votes."
+"ability": "Once per game, at night*, you may choose a dead player: If you have at least one token and they are a Townsfolk, they are resurrected and you discard all your tokens."
 },
 {
 "id": "Seer",
@@ -115,7 +115,7 @@
 "setup": false,
 "name": "Seer",
 "team": "townsfolk",
-"ability": "At night, if you received a duplicate copy of a token, choose a player. Learn their alignment."
+"ability": "At night, if you received a duplicate copy of a token, wake to choose a player. Learn their alignment, and discard all your tokens."
 },
 {
 "id": "Dionysus",
@@ -167,7 +167,7 @@
 "setup": false,
 "name": "Quartermaster",
 "team": "townsfolk",
-"ability": "During the day, you may publicly choose a player. If you have three or more tokens and they are evil alignment, they die."
+"ability": "During the day, you may publicly choose a player. If you have three or more tokens and they are evil alignment, they die, and you discard all your tokens."
 },
 {
 "id": "Exile",
@@ -209,17 +209,17 @@
 "ability": "You win if executed. When executed, a random townsfolk dies tonight. You lose if you are alive at the end of the game."
 },
 {
-"id": "Happy Salmon",
+"id": "5D Pawn",
 "image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/happy%20salmon.png",
 "firstNight": 0,
 "firstNightReminder":"",
-"otherNight": 42,
-"otherNightReminder": "? IF the first player to choose Happy Salmon tonight was their opposite alignment, wake up the Happy Salmon and show the head signal.",
-"reminders": ["Drunk"],
+"otherNight": 4,
+"otherNightReminder": "? IF it is their 3rd/4th night, wake them up, @ they choose a good character.",
+"reminders": [],
 "setup": false,
-"name": "Happy Salmon",
+"name": "5D Pawn",
 "team": "outsider",
-"ability": "Each night, the 1st player to choose you with their ability is drunk until dusk. You become their alignment."
+"ability": "All Minions know you are in play. If a Minion publicly guesses you (once), your team loses. On your 3rd/4th (10-12/13-15p) night, choose a good character and gain that ability."
 },
 {
 "id": "Society of Falling Light",
@@ -279,12 +279,12 @@
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 21,
-"otherNightReminder": "@ The Demon Points to a player. That player, and up to one other player that visits them tonight dies.",
+"otherNightReminder": "@ The Demon Points to a player. That player, and all other players that visit them tonight dies.",
 "reminders": ["Van Hauge"],
 "setup": false,
 "name": "The Yin Brotherhood",
 "team": "demon",
-"ability": "Each night*, choose a player: that player and up to one other player who targeted them dies tonight. "
+"ability": "Each night*, choose a player: that player and ALL other players who targeted them dies tonight. "
 },
 {
 "id": "Deathwalker",
@@ -310,7 +310,7 @@
 "setup": true,
 "name": "Secret Hitler",
 "team": "demon",
-"ability": "You think you're a townsfolk, and register as that townsfolk, but aren't. Starting on your 4th day, evil wins if you're executed or no alive player is executed, town wins at night if 3 or less players are alive. Up to 2 players die each night*."
+"ability": "You think you're a townsfolk, and register as that townsfolk, but aren't. Starting on your 3rd/4th (10-12p/13-15p) day, evil wins if you're executed or no alive player is executed, town wins at night if 3 or less players are alive. Up to 2 players die each night*."
 },
 {
 "id": "Shadows Flicker Like Flame",
