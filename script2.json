@@ -4,14 +4,14 @@
 "id": "Forensic Scientist",
 "image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/forensic%20sci.png",
 "firstNight": 4,
-"firstNightReminder":"Show the token of whichever demon is in play.",
+"firstNightReminder":"Show the token of whichever Demon is in play.",
 "otherNight": 26,
-"otherNightReminder": "? IF the demon killed the forensic scientist: show the hand symbol for how many pairs of evil players.",
+"otherNightReminder": "? IF the Demon killed the forensic scientist: show the hand symbol for how many pairs of evil players.",
 "reminders": [],
 "setup": false,
 "name": "Forensic Scientist",
 "team": "townsfolk",
-"ability": "You start knowing which demon is in play. If the Demon kills you, you learn how many pairs of evil players there are."
+"ability": "You start knowing which Demon is in play. If the Demon kills you, you learn how many pairs of evil players there are."
 },
 {
 "id": "Ambassador",
@@ -97,7 +97,7 @@
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 31,
-"otherNightReminder": "@ Necromancer may choose to use their ability; if yes, they point to a dead player. If the Necromancer had at least one token, and that player is a townsfolk, they are now alive.",
+"otherNightReminder": "@ Necromancer may choose to use their ability; if yes, they point to a dead player. If the Necromancer had at least one token, and that player is a Townsfolk, they are now alive.",
 "reminders": [],
 "setup": false,
 "name": "Necromancer",
@@ -123,7 +123,7 @@
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 1,
-"otherNightReminder": "? IF a minion was executed today: place the everyone drunk marker. ELSE: remove it.",
+"otherNightReminder": "? IF a Minion was executed today: place the everyone drunk marker. ELSE: remove it.",
 "reminders": ["All drunk"],
 "setup": false,
 "name": "Dionysus",
@@ -193,7 +193,7 @@
 "setup": false,
 "name": "RINNEGATO",
 "team": "outsider",
-"ability": "The first time you would die from the demon, don't. If you survive until the final 3 players, you may shoot the other 2 players, and win alone. You lose if you die."
+"ability": "The first time you would die from the Demon, don't. If you survive until the final 3 players, you may shoot the other 2 players, and win alone. You lose if you die."
 },
 {
 "id": "Jester",
@@ -201,12 +201,12 @@
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 2,
-"otherNightReminder": "? IF the Jester was executed today, a random townsfolk dies.",
+"otherNightReminder": "? IF the Jester was executed today, a random Townsfolk dies.",
 "reminders": ["DEAD"],
 "setup": false,
 "name": "Jester",
 "team": "outsider",
-"ability": "You win if executed. When executed, a random townsfolk dies tonight. You lose if you are alive at the end of the game."
+"ability": "You win if executed. When executed, a random Townsfolk dies tonight. You lose if you are alive at the end of the game."
 },
 {
 "id": "5D Pawn",
@@ -253,12 +253,12 @@
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 13,
-"otherNightReminder": "? IF: the demon was executed today and 4+ players live, the Magus becomes the new demon. IF: a minion was executed today, the Magus may become that minion.",
+"otherNightReminder": "? IF: the Demon was executed today and 4+ players live, the Magus becomes the new Demon. IF: a Minion was executed today, the Magus may become that Minion.",
 "reminders": [],
 "setup": false,
 "name": "Magus of Cloaks",
 "team": "minion",
-"ability": "At night, if a minion was executed, you may swap characters with them. If the demon is executed and at least 4 players are still alive, become the new demon."
+"ability": "At night, if a Minion was executed, you may swap characters with them. If the Demon is executed and at least 4 players are still alive, become the new Demon."
 },
 {
 "id": "Lisa",
@@ -310,7 +310,7 @@
 "setup": true,
 "name": "Secret Hitler",
 "team": "demon",
-"ability": "You think you're a townsfolk, and register as that townsfolk, but aren't. Starting on your 3rd/4th (10-12p/13-15p) day, evil wins if you're executed or no alive player is executed, town wins at night if 3 or less players are alive. Up to 2 players die each night*."
+"ability": "You think you're a Townsfolk, and register as that Townsfolk, but aren't. Starting on your 3rd/4th (10-12p/13-15p) day, evil wins if you're executed or no alive player is executed, town wins at night if 3 or less players are alive. Up to 2 players die each night*."
 },
 {
 "id": "Shadows Flicker Like Flame",
@@ -318,7 +318,7 @@
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 24,
-"otherNightReminder": "@ The Demon Points to a player. That player dies, and the nearest townsfolk recieves a fear token. ? IF a player reaches 2 fear tokens for the first time this game, they die.",
+"otherNightReminder": "@ The Demon Points to a player. That player dies, and the nearest Townsfolk recieves a fear token. ? IF a player reaches 2 fear tokens for the first time this game, they die.",
 "reminders": ["T-Fear"],
 "setup": false,
 "name": "Shadows Flicker Like Flame",
