@@ -6,12 +6,12 @@
 "firstNight": 4,
 "firstNightReminder":"Show the token of whichever demon is in play.",
 "otherNight": 26,
-"otherNightReminder": "? IF the demon killed the forensic scientist: show the hand symbol for how many steps.",
+"otherNightReminder": "? IF the demon killed the forensic scientist: show the hand symbol for how many pairs of evil players.",
 "reminders": [],
 "setup": false,
 "name": "Forensic Scientist",
 "team": "townsfolk",
-"ability": "You start knowing which demon is in play. If the Demon kills you, you learn how many steps they are from their nearest Minion."
+"ability": "You start knowing which demon is in play. If the Demon kills you, you learn how many pairs of evil players there are."
 },
 {
 "id": "Ambassador",
