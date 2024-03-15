@@ -216,7 +216,7 @@
 "otherNight": 4,
 "otherNightReminder": "? IF it is their 3rd/4th night, wake them up, show what character they become.",
 "reminders": [],
-"setup": false,
+"setup": true,
 "name": "5D Pawn",
 "team": "outsider",
 "ability": "All Minions know you are in play. If a Minion publicly guesses you (once), your team loses. On your 3rd/4th (10-12/13-15p) night, you become a not-in-play Townsfolk."
