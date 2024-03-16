@@ -17,14 +17,14 @@
 "id": "Ambassador",
 "image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/ambassador.png",
 "firstNight": 5,
-"firstNightReminder":"Show two character tokens, one in-play and one not in-play. ",
+"firstNightReminder":"Show two character tokens, both in-play.",
 "otherNight": 3,
-"otherNightReminder": "? IF the ambassador challenged today: either they or the challenged player dies.",
-"reminders": ["Dead"],
+"otherNightReminder": "? IF the ambassador challenged today: Kill accordingly.",
+"reminders": [""],
 "setup": false,
 "name": "Ambassador",
 "team": "townsfolk",
-"ability": "You start knowing two characters: exactly one is in-play. Once per game, you may challenge a player's public role claim. Tonight, if they were the role they claimed, you die. If not, they die."
+"ability": "You start knowing two in-play characters. Once per game, you may challenge a player's public role claim. Tonight, if they were the role they claimed, you die. If not, you die."
 },
 {
 "id": "Woodland Alliance",
