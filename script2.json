@@ -167,7 +167,7 @@
 "setup": false,
 "name": "Quartermaster",
 "team": "townsfolk",
-"ability": "During the day, you may publicly choose a player. If you have three or more tokens and they are evil alignment, they die, and you discard all your tokens."
+"ability": "Once per day, you may publicly choose a player. If you have three or more tokens and they are evil alignment, they die, and you discard all your tokens."
 },
 {
 "id": "Exile",
