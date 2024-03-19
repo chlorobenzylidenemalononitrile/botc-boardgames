@@ -4,7 +4,7 @@
 "id": "Forensic Scientist",
 "image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/forensic%20sci.png",
 "firstNight": 4,
-"firstNightReminder":"Show the token of whichever Demon is in play.",
+"firstNightReminder":"Show the token of whichever Demon is in play.", 
 "otherNight": 26,
 "otherNightReminder": "? IF the Demon killed the forensic scientist: show the hand symbol for how many pairs of evil players.",
 "reminders": [],
