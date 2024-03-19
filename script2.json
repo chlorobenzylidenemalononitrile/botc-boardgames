@@ -76,7 +76,7 @@
 "setup": false,
 "name": "Quarantine Specialist",
 "team": "townsfolk",
-"ability": "Each night*, choose a player to place a quarantine token on: Evil players who target this player are drunk tonight. A duplicatex  token offers no protection."
+"ability": "Each night*, choose a player to place a quarantine token on: Evil players who target this player are drunk tonight. A duplicate token offers no protection."
 },
 {
 "id": "Mad Hatter",
@@ -131,17 +131,17 @@
 "ability": " When a Minion dies by execution, all other players are drunk until dusk tomorrow. Travellers are only drunk until dawn."
 },
 {
-"id": "Guard",
-"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/guard.png",
+"id": "Hacker",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/hacker.png",
 "firstNight": 0,
-"firstNightReminder":"",
+"firstNightReminder":"The Hacker is shown as an extra minion to the Demon, and an extra Demon to the minions.",
 "otherNight": 0,
 "otherNightReminder": "",
 "reminders": [],
 "setup": false,
 "name": "Guard",
 "team": "townsfolk",
-"ability": "Once per game, during the day, publicly choose a player and guess their character: if you are correct, they die immediately."
+"ability": "The Demon thinks you are a Minion, Minions think you are a Demon."
 },
 {
 "id": "Loyal Servant Of Arthur",
@@ -258,7 +258,7 @@
 "setup": false,
 "name": "Magus of Cloaks",
 "team": "minion",
-"ability": "At night, if a Minion was executed, you may swap characters with them. If the Demon is executed and at least 4 players are still alive, become the new Demon."
+"ability": "The first time a minion dies, gain their abiility until dusk tomorrow. If the Demon is executed and at least 4 players are still alive, become the new Demon."
 },
 {
 "id": "Lisa",
@@ -297,7 +297,7 @@
 "setup": false,
 "name": "Deathwalker",
 "team": "demon",
-"ability": "Each night*, choose a player: they die. When 5 or more players are alive, learn an in-play character. If you kill the learned character, you may kill a second player."
+"ability": "When 5 or more players are alive, learn an in-play character. If you kill the learned character, you may kill a second player. Each night*, choose a player: they die."
 },
 {
 "id": "Secret Hitler",
@@ -378,17 +378,17 @@
 "ability": "Something bad might happen to the player(s) who tapped your back the least today."
 },
 {
-"id": "Spymaster",
-"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/spymaster.png",
+"id": "Guard",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/guard.png",
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 0,
 "otherNightReminder": "",
 "reminders": [],
 "setup": false,
-"name": "Spymaster",
+"name": "Guard",
 "team": "traveller",
-"ability": "Each day, once nominations open, silence a player: they may not nominate or vote today, even if you are exiled."
+"ability": "Once per game, privately choose a player and guess their character: if you are correct, they die tonight."
 },
 {
 "id": "Awedish",
@@ -401,6 +401,6 @@
 "setup": false,
 "name": "Awedish",
 "team": "fabled",
-"ability": "Some characters leave tokens on other players. Players may have multiple copies of the same token, but duplicate copies have no effect, except to increase token count. All tokens persist between nights, even when the character dies."
+"ability": "Some characters leave tokens on other players. Players may have multiple copies of the same token, but duplicate copies have no effect, except to increase token count. All tokens persist between nights, even when the character dies. Dead players are not affected by token effects."
 }
 ]
