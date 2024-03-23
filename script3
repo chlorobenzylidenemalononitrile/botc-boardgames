@@ -33,11 +33,11 @@
 "firstNightReminder":"@ The WA points to a player. Add a sympathy token to that player.",
 "otherNight": 36,
 "otherNightReminder": "? IF one or more players visited an alive player with a sympathy token: point to those players. ELSE: @ The WA points to a player. Add a sympathy token to that player.",
-"reminders": ["T-Sympathy"],
+"reminders": ["T-Sympathy","Visitor"],
 "setup": false,
 "name": "Woodland Alliance",
 "team": "townsfolk",
-"ability": "Each night, learn which players visted an alive player with a sympathy token. If it was no one, choose a player: they receive a sympathy token."
+"ability": "Each night, learn which players visted an alive player with a SYMPATHY TOKEN. If it was no one, choose a player: they receive a SYMPATHY TOKEN."
 },
 {
 "id": "Clan Albion",
@@ -50,20 +50,20 @@
 "setup": false,
 "name": "Clan Albion",
 "team": "townsfolk",
-"ability": "Each night, choose a player to place a flag token. If you are executed, learn how many good players have a flag token that night."
+"ability": "Each night, choose a player to place a FLAG TOKEN. If you are executed, learn how many good players have a FLAG TOKEN that night."
 },
 {
 "id": "Mons Insurance",
 "image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/mons%20insurance.png",
 "firstNight": 7,
-"firstNightReminder":"@ Mons Insurance points to a player. Show the hand signal for the number of tokens that player has. Add an insurance token to that player.",
+"firstNightReminder":"@ Mons Insurance points to a player. Add an insurance token to that player, and show the hand signal for the number of tokens that player has.",
 "otherNight": 35,
-"otherNightReminder": "@ Mons Insurance points to a player. Show the hand signal for the number of tokens that player has. Add an insurance token to that player.",
+"otherNightReminder": "@ Mons Insurance points to a player. Add an insurance token to that player, and show the hand signal for the number of tokens that player has.",
 "reminders": ["T-Insurance"],
 "setup": false,
 "name": "Mons Insurance",
 "team": "townsfolk",
-"ability": "Each night, choose a player: Learn how many tokens they have, then place an insurance token: If they would die from the Demon, you die instead."
+"ability": "Each night, choose a player: They recieve an INSURANCE TOKEN, and you learn how many tokens they have."
 },
 {
 "id": "Quarantine Specialist",
@@ -76,7 +76,7 @@
 "setup": false,
 "name": "Quarantine Specialist",
 "team": "townsfolk",
-"ability": "Each night*, choose a player to place a quarantine token on: Evil players who target this player are drunk tonight. A duplicate token offers no protection."
+"ability": "Each night*, choose a player: They recieve a QUARANTINE TOKEN."
 },
 {
 "id": "Mad Hatter",
@@ -280,11 +280,11 @@
 "firstNightReminder":"",
 "otherNight": 21,
 "otherNightReminder": "@ The Demon Points to a player. That player, and all other players that visit them tonight dies.",
-"reminders": ["Van Hauge"],
+"reminders": ["Van Hauge","Will die"],
 "setup": false,
 "name": "The Yin Brotherhood",
 "team": "demon",
-"ability": "Each night*, choose a player: that player and ALL other players who targeted them dies tonight. "
+"ability": "Each night*, choose a player: that player and ALL other players who targeted them dies tonight. If you choose a minion, they keep their ability, and you may choose an additional player."
 },
 {
 "id": "Deathwalker",
@@ -297,7 +297,7 @@
 "setup": false,
 "name": "Deathwalker",
 "team": "demon",
-"ability": "When 5 or more players are alive, learn an in-play character. If you kill the learned character, you may kill a second player. Each night*, choose a player: they die."
+"ability": "When 5 or more players are alive: learn an in-play character. If you kill the learned character, you may kill a second player. Each night*, choose a player: they die."
 },
 {
 "id": "Secret Hitler",
@@ -323,7 +323,7 @@
 "setup": false,
 "name": "Shadows Flicker Like Flame",
 "team": "demon",
-"ability": "Each night*, choose a player: they die. The nearest alive good player receives a fear token: their abilities have no effect on you, and you register as good to them if possible. The first player with 2 fear tokens also dies."
+"ability": "When 5 or more players are alive: a FEAR TOKEN is placed on the nearest good player to players you kill. Players with 2 FEAR TOKENS also die. Each night*, choose a player: they die."
 },
 {
 "id": "Mr. Monopoly",
