@@ -11,7 +11,7 @@
 "setup": false,
 "name": "Forensic Scientist",
 "team": "townsfolk",
-"ability": "You start knowing which Demon is in play. If the Demon kills you, you learn how many pairs of evil players there are."
+"ability": "You start knowing which Demon is in play. If the Demon kills you, you learn how many pairs of evil players there are (dead players count)."
 },
 {
 "id": "Ambassador",
@@ -172,15 +172,15 @@
 {
 "id": "Exile",
 "image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/exile.png",
-"firstNight": 9,
-"firstNightReminder":"Show the Exile their quest.",
-"otherNight": 41,
-"otherNightReminder": "? IF the Exile was given a custom night ability, resolve it.",
-"reminders": ["Quest"],
+"firstNight": 0,
+"firstNightReminder":"",
+"otherNight": 6,
+"otherNightReminder": "? IF the Exile nominated a third player, they become evil.",
+"reminders": ["Nominated"],
 "setup": false,
 "name": "Exile",
 "team": "outsider",
-"ability": "On your first night, receive a quest. If you fulfill your quest, the storyteller will publicly announce a visionary is in the game. If you survive until tomorrow night, you become evil and your team wins."
+"ability": "After you nominate three different players, become evil that night."
 },
 {
 "id": "RINNEGATO",
@@ -232,7 +232,7 @@
 "setup": false,
 "name": "Society of Falling Light",
 "team": "minion",
-"ability": "Each night, choose a player: They are poisoned until dusk. Additionally, they recieve a regret token: If they have a night ability: each subsequent night, their action or information is what it would have been the previous night."
+"ability": "Each night, choose a player: They are poisoned until dusk and recieve a REGRET TOKEN."
 },
 {
 "id": "Bene Gesserit",
@@ -261,17 +261,17 @@
 "ability": "The first time a minion is executed, gain their ability until dusk tomorrow. If the Demon is executed and at least 4 players are still alive, become the new Demon."
 },
 {
-"id": "Lisa",
-"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/lisa.png",
+"id": "Destiny Bond",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/destiny%20bond.png",
 "firstNight": 3,
-"firstNightReminder":"@ The Witch points to a player. If that player nominates tomorrow they die immediately and lose their dead vote.",
+"firstNightReminder":"@ The Destiny Bond points to a player. If that player is executed tomorrow, the nominator also dies.",
 "otherNight": 14,
-"otherNightReminder": "@ The Witch points to a player. If that player nominates tomorrow they die immediately and lose their dead vote.",
-"reminders": ["Cursed"],
+"otherNightReminder": "@ The Destiny Bond points to a player. If that player is executed tomorrow, the nominator also dies.",
+"reminders": ["Destiny"],
 "setup": false,
-"name": "Lisa",
+"name": "Destiny Bond",
 "team": "minion",
-"ability": "Each night, choose a player: if they nominate tomorrow, they die and lose their dead vote. If just 3 players live, you lose this ability."
+"ability": "Each night, choose a player: if they are executed tomorrow, the nominator also dies (counts as a Destiny Bond kill)."
 },
 {
 "id": "The Yin Brotherhood",
@@ -318,12 +318,12 @@
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 24,
-"otherNightReminder": "@ The Demon Points to a player. That player dies, and the nearest Townsfolk recieves a fear token. ? IF a player reaches 2 fear tokens for the first time this game, they die.",
+"otherNightReminder": "@ The Demon Points to a player. That player dies. If 5 players were alive: the nearest good player recieves a fear token. ? IF a player reaches 2 fear tokens, they die.",
 "reminders": ["T-Fear"],
 "setup": false,
 "name": "Shadows Flicker Like Flame",
 "team": "demon",
-"ability": "When 5 or more players are alive: a FEAR TOKEN is placed on the nearest good player to players you kill. Players with 2 FEAR TOKENS also die. Each night*, choose a player: they die."
+"ability": "When 5 or more players are alive: a FEAR TOKEN is placed on the nearest good player to players you kill. Players with 2 FEAR TOKENS also die. Each night*, choose a player: they die. [+1 RINNEGATO, they have no FEAR]"
 },
 {
 "id": "Mr. Monopoly",
