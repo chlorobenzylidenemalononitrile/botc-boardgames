@@ -11,7 +11,7 @@
 "setup": false,
 "name": "Forensic Scientist",
 "team": "townsfolk",
-"ability": "You start knowing which Demon is in play. If the Demon kills you, you learn how many pairs of evil players there are."
+"ability": "You start knowing which Demon is in play. If the Demon kills you, learn how many pairs of evil players there are."
 },
 {
 "id": "Ambassador",
@@ -24,7 +24,7 @@
 "setup": false,
 "name": "Ambassador",
 "team": "townsfolk",
-"ability": "You start knowing 2 in-play characters. Once per game, you may challenge a player's public role claim. Tonight, if they were the role they claimed, you die. If not, you die."
+"ability": "You start knowing 2 in-play characters. Once per game, you may challenge a player's public role claim. Tonight, if they were the role they claimed, you die. If not, they die."
 },
 {
 "id": "Woodland Alliance",
@@ -154,7 +154,7 @@
 "setup": false,
 "name": "Loyal Servant Of Arthur",
 "team": "townsfolk",
-"ability": "On your 1st day, publicly choose a team 5 players. That night, learn if the team has 2 or more players of evil alignment."
+"ability": "On your 1st day, publicly choose a team of 5 players. That night, learn if the team has 2 or more players of evil alignment."
 },
 {
 "id": "Quartermaster",
@@ -168,19 +168,6 @@
 "name": "Quartermaster",
 "team": "townsfolk",
 "ability": "Once per day, you may publicly choose a player. If you have 3 or more tokens and they are evil alignment, they die, and you discard all your tokens."
-},
-{
-"id": "Exile",
-"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/exile.png",
-"firstNight": 0,
-"firstNightReminder":"",
-"otherNight": 6,
-"otherNightReminder": "? IF the Exile nominated a third player, they become evil.",
-"reminders": ["Nominated"],
-"setup": false,
-"name": "Exile",
-"team": "outsider",
-"ability": "After you nominate 3 different players, become evil that night."
 },
 {
 "id": "RINNEGATO",
@@ -207,6 +194,19 @@
 "name": "Jester",
 "team": "outsider",
 "ability": "You win if executed. When executed, a random Townsfolk dies tonight. You lose if you are alive at the end of the game. [+1 Clan Albion]"
+},
+{
+"id": "Exile",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/exile.png",
+"firstNight": 0,
+"firstNightReminder":"",
+"otherNight": 6,
+"otherNightReminder": "? IF the Exile nominated a third player, they become evil.",
+"reminders": ["Nominated"],
+"setup": false,
+"name": "Exile",
+"team": "outsider",
+"ability": "After you nominate 3 different players, become evil that night."
 },
 {
 "id": "Misread the Rules",
@@ -323,7 +323,7 @@
 "setup": false,
 "name": "Shadows Flicker Like Flame",
 "team": "demon",
-"ability": "When 5 or more players are alive: a FEAR TOKEN is placed on the nearest good player to players you kill. Players with 2 FEAR TOKENS also die. Each night*, choose a player: they die."
+"ability": "When 5 or more players are alive: a FEAR TOKEN is placed on the nearest good player to players you kill. Each night*, choose a player: they die. Players with 2 FEAR TOKENS also die."
 },
 {
 "id": "Mr. Monopoly",
