@@ -134,14 +134,14 @@
 "id": "Hacker",
 "image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/hacker.png",
 "firstNight": 0,
-"firstNightReminder":"The Hacker is shown as an extra minion to the Demon, and an extra Demon to the minions.",
+"firstNightReminder":"Skip the Minion info and Demon info phase.",
 "otherNight": 0,
 "otherNightReminder": "",
 "reminders": [],
-"setup": false,
+"setup": true,
 "name": "Hacker",
 "team": "townsfolk",
-"ability": "The Demon thinks you are a Minion, Minions think you are a Demon."
+"ability": "Minions & Demons do not know each other. If you die, they learn who each other are that night."
 },
 {
 "id": "Loyal Servant Of Arthur",
@@ -213,13 +213,13 @@
 "image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/chess-pawn-EKqREJ4-600.png",
 "firstNight": 0,
 "firstNightReminder":"",
-"otherNight": 4,
-"otherNightReminder": "? IF it is their 3rd/4th night, wake them up, show what character they become.",
-"reminders": [],
+"otherNight": 0,
+"otherNightReminder": "",
+"reminders": ["5D pawn"],
 "setup": true,
 "name": "5D Pawn",
 "team": "outsider",
-"ability": "All Minions know you are in play. If a Minion publicly guesses you (once), your team loses. On your 3rd/4th (10-12/13-15p) night, you become a not-in-play Townsfolk."
+"ability": "You think you are a Minion, but you are not. [+1 Hacker]"
 },
 {
 "id": "Society of Falling Light",
@@ -232,7 +232,7 @@
 "setup": false,
 "name": "Society of Falling Light",
 "team": "minion",
-"ability": "Each night, choose a player: They are poisoned until dusk and recieve a REGRET TOKEN."
+"ability": "Each night, choose a player: They are poisoned until dusk tomorrow and recieve a REGRET TOKEN."
 },
 {
 "id": "Bene Gesserit",
@@ -271,7 +271,7 @@
 "setup": false,
 "name": "Destiny Bond",
 "team": "minion",
-"ability": "Each night, choose a player: if they are executed tomorrow, the nominator also dies (counts as a Destiny Bond kill)."
+"ability": "Each night, choose a living player (different to last night): if they are executed tomorrow, the nominator also dies."
 },
 {
 "id": "The Yin Brotherhood",
@@ -284,7 +284,20 @@
 "setup": false,
 "name": "The Yin Brotherhood",
 "team": "demon",
-"ability": "Each night*, choose a player: that player and ALL other players who targeted them dies tonight. If you choose a minion, they keep their ability, and you may choose an additional player."
+"ability": "Each night*, choose a player: that player and ALL other players who targeted them dies tonight. If you choose a Minion, they keep their ability, and you may choose an additional non-Minion player."
+},
+{
+"id": "Secret Hitler",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/hitler.png",
+"firstNight": 0,
+"firstNightReminder":"",
+"otherNight": 0,
+"otherNightReminder": "",
+"reminders": ["Hitler"],
+"setup": true,
+"name": "Secret Hitler",
+"team": "demon",
+"ability": "You think you're a Townsfolk, and register as that Townsfolk, but aren't. Starting on your 3rd day, evil wins if you're executed or no living player is executed, town wins at night if 4 or less players are alive. Up to 2 players die each night*."
 },
 {
 "id": "Deathwalker",
@@ -300,19 +313,6 @@
 "ability": "When 5 or more players are alive: learn an in-play character. If you kill the learned character, you may kill a second player. Each night*, choose a player: they die."
 },
 {
-"id": "Secret Hitler",
-"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/hitler.png",
-"firstNight": 0,
-"firstNightReminder":"",
-"otherNight": 0,
-"otherNightReminder": "",
-"reminders": ["Hitler"],
-"setup": true,
-"name": "Secret Hitler",
-"team": "demon",
-"ability": "You think you're a Townsfolk, and register as that Townsfolk, but aren't. Starting on your 3rd/4th (10-12p/13-15p) day, evil wins if you're executed or no alive player is executed, town wins at night if 3 or less players are alive. Up to 2 players die each night*."
-},
-{
 "id": "Shadows Flicker Like Flame",
 "image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/shadows.png",
 "firstNight": 0,
@@ -323,7 +323,7 @@
 "setup": false,
 "name": "Shadows Flicker Like Flame",
 "team": "demon",
-"ability": "When 5 or more players are alive: a FEAR TOKEN is placed on the nearest good player to players you kill. Players with 2 FEAR TOKENS also die. Each night*, choose a player: they die. [+1 RINNEGATO, they have no FEAR]"
+"ability": "When 5 or more players are alive: a FEAR TOKEN is placed on the nearest good player to players you kill. Players with 2 FEAR TOKENS also die. Each night*, choose a player: they die."
 },
 {
 "id": "Mr. Monopoly",
