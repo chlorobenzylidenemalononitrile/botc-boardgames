@@ -20,7 +20,7 @@
 "firstNightReminder":"Show 2 character tokens, both in-play.",
 "otherNight": 3,
 "otherNightReminder": "? IF the ambassador challenged today: Kill accordingly.",
-"reminders": [""],
+"reminders": [],
 "setup": false,
 "name": "Ambassador",
 "team": "townsfolk",
@@ -154,7 +154,7 @@
 "setup": false,
 "name": "Loyal Servant Of Arthur",
 "team": "townsfolk",
-"ability": "On your 1st day, publicly choose a team of 5 players. That night, learn if the team has 2 or more players of evil alignment."
+"ability": "On your 1st day, publicly choose a team of 5 players. That night, learn if the team has 4 or more players of good alignment."
 },
 {
 "id": "Quartermaster",
@@ -189,7 +189,7 @@
 "firstNightReminder":"",
 "otherNight": 2,
 "otherNightReminder": "? IF the Jester was executed today, a random Townsfolk dies.",
-"reminders": ["DEAD"],
+"reminders": ["Won"],
 "setup": true,
 "name": "Jester",
 "team": "outsider",
