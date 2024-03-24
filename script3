@@ -11,28 +11,28 @@
 "setup": false,
 "name": "Forensic Scientist",
 "team": "townsfolk",
-"ability": "You start knowing which Demon is in play. If the Demon kills you, you learn how many pairs of evil players there are (dead players count)."
+"ability": "You start knowing which Demon is in play. If the Demon kills you, you learn how many pairs of evil players there are."
 },
 {
 "id": "Ambassador",
 "image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/ambassador.png",
 "firstNight": 5,
-"firstNightReminder":"Show two character tokens, both in-play.",
+"firstNightReminder":"Show 2 character tokens, both in-play.",
 "otherNight": 3,
 "otherNightReminder": "? IF the ambassador challenged today: Kill accordingly.",
 "reminders": [""],
 "setup": false,
 "name": "Ambassador",
 "team": "townsfolk",
-"ability": "You start knowing two in-play characters. Once per game, you may challenge a player's public role claim. Tonight, if they were the role they claimed, you die. If not, you die."
+"ability": "You start knowing 2 in-play characters. Once per game, you may challenge a player's public role claim. Tonight, if they were the role they claimed, you die. If not, you die."
 },
 {
 "id": "Woodland Alliance",
 "image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/Woodland_Alliance_-_Symbol.png",
-"firstNight": 8,
+"firstNight": 0,
 "firstNightReminder":"@ The WA points to a player. Add a sympathy token to that player.",
 "otherNight": 36,
-"otherNightReminder": "? IF one or more players visited an alive player with a sympathy token: point to those players. ELSE: @ The WA points to a player. Add a sympathy token to that player.",
+"otherNightReminder": "? IF 1 or more players visited an alive player with a sympathy token: point to those players. ELSE: @ The WA points to a player. Add a sympathy token to that player.",
 "reminders": ["T-Sympathy", "Visitor"],
 "setup": false,
 "name": "Woodland Alliance",
@@ -97,12 +97,12 @@
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 31,
-"otherNightReminder": "@ Necromancer may choose to use their ability; if yes, they point to a dead player. If the Necromancer had at least one token, and that player is a Townsfolk, they are now alive.",
+"otherNightReminder": "@ Necromancer may choose to use their ability; if yes, they point to a dead player. If the Necromancer had at least 2 tokens, and that player is a Townsfolk, they are now alive.",
 "reminders": [],
 "setup": false,
 "name": "Necromancer",
 "team": "townsfolk",
-"ability": "Once per game, at night*, you may choose a dead player: If you have at least one token and they are a Townsfolk, they are resurrected and you discard all your tokens."
+"ability": "Once per game, at night*, you may choose a dead player: If you have at least 2 tokens and they are a Townsfolk, they are resurrected."
 },
 {
 "id": "Seer",
@@ -128,7 +128,7 @@
 "setup": false,
 "name": "James Watt (1736-1819)",
 "team": "townsfolk",
-"ability": " When a Minion dies by execution, all other players are drunk until dusk tomorrow. Travellers are only drunk until dawn."
+"ability": "When a Minion dies by execution, all other players are drunk until dusk tomorrow. Travellers are only drunk until dawn."
 },
 {
 "id": "Hacker",
@@ -154,7 +154,7 @@
 "setup": false,
 "name": "Loyal Servant Of Arthur",
 "team": "townsfolk",
-"ability": "On your 1st day, publicly choose a team 5 players. That night, learn if the team contains 2 or more players of evil alignment."
+"ability": "On your 1st day, publicly choose a team 5 players. That night, learn if the team has 2 or more players of evil alignment."
 },
 {
 "id": "Quartermaster",
@@ -167,7 +167,7 @@
 "setup": false,
 "name": "Quartermaster",
 "team": "townsfolk",
-"ability": "Once per day, you may publicly choose a player. If you have three or more tokens and they are evil alignment, they die, and you discard all your tokens."
+"ability": "Once per day, you may publicly choose a player. If you have 3 or more tokens and they are evil alignment, they die, and you discard all your tokens."
 },
 {
 "id": "Exile",
@@ -180,7 +180,7 @@
 "setup": false,
 "name": "Exile",
 "team": "outsider",
-"ability": "After you nominate three different players, become evil that night."
+"ability": "After you nominate 3 different players, become evil that night."
 },
 {
 "id": "RINNEGATO",
@@ -215,7 +215,7 @@
 "firstNightReminder":"",
 "otherNight": 0,
 "otherNightReminder": "",
-"reminders": ["5D pawn"],
+"reminders": [],
 "setup": true,
 "name": "Misread the Rules",
 "team": "outsider",
@@ -284,7 +284,7 @@
 "setup": false,
 "name": "The Yin Brotherhood",
 "team": "demon",
-"ability": "Each night*, choose a player: that player and ALL other players who targeted them dies tonight. If you choose a Minion, they keep their ability, and you may choose an additional non-Minion player."
+"ability": "Each night*, choose a player: that player and ALL other players who targeted them dies tonight. If you choose a Minion, you may choose an additional player."
 },
 {
 "id": "Secret Hitler",
