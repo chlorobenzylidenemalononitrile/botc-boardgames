@@ -297,7 +297,7 @@
 "setup": true,
 "name": "Secret Hitler",
 "team": "demon",
-"ability": "You think you're a Townsfolk, and register as that Townsfolk, but aren't. Starting on your 3rd day, evil wins if you're executed or no living player is executed, town wins at night if 4 or less players are alive. Up to 2 players die each night*."
+"ability": "You think you're a Townsfolk, and register as that Townsfolk, but aren't. Starting on your 3rd day, evil wins if you or no living player is executed, town wins at night if 4 or less players live. Up to 2 players die each night*."
 },
 {
 "id": "Deathwalker",
