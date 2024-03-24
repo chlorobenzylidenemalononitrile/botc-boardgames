@@ -37,7 +37,7 @@
 "setup": false,
 "name": "Woodland Alliance",
 "team": "townsfolk",
-"ability": "Each night, learn the first player to visit an alive player with a SYMPATHY TOKEN. If it was no one, choose a player: they receive a SYMPATHY TOKEN."
+"ability": "Each night, learn the 1st player to visit a living player with a SYMPATHY TOKEN. If it was no one, choose a player: they receive a SYMPATHY TOKEN."
 },
 {
 "id": "Clan Albion",
@@ -297,7 +297,7 @@
 "setup": true,
 "name": "Secret Hitler",
 "team": "demon",
-"ability": "You think you're a Townsfolk, and register as that Townsfolk, but aren't. Starting on your 3rd day, evil wins if you or no living player is executed, town wins at night if 4 or less players live. Up to 2 players die each night*."
+"ability": "Up to 2 players die each night*. You think you're a Townsfolk, and register as that Townsfolk, but aren't. Starting on day 3, evil wins if you or no living player is executed, town wins at night if 4 or less players live."
 },
 {
 "id": "Deathwalker",
