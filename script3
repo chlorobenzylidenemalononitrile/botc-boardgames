@@ -393,10 +393,6 @@
 {
 "id": "Awedish",
 "image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/AweWave.png",
-"firstNight": 0,
-"firstNightReminder":"",
-"otherNight": 0,
-"otherNightReminder": "",
 "reminders": ["Ability used"],
 "setup": false,
 "name": "Awedish",
