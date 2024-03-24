@@ -33,11 +33,11 @@
 "firstNightReminder":"@ The WA points to a player. Add a sympathy token to that player.",
 "otherNight": 36,
 "otherNightReminder": "? IF one or more players visited an alive player with a sympathy token: point to those players. ELSE: @ The WA points to a player. Add a sympathy token to that player.",
-"reminders": ["T-Sympathy","Visitor"],
+"reminders": ["T-Sympathy", "Visitor"],
 "setup": false,
 "name": "Woodland Alliance",
 "team": "townsfolk",
-"ability": "Each night, learn which players visted an alive player with a SYMPATHY TOKEN. If it was no one, choose a player: they receive a SYMPATHY TOKEN."
+"ability": "Each night, learn which players visited an alive player with a SYMPATHY TOKEN. If it was no one, choose a player: they receive a SYMPATHY TOKEN."
 },
 {
 "id": "Clan Albion",
@@ -63,7 +63,7 @@
 "setup": false,
 "name": "Mons Insurance",
 "team": "townsfolk",
-"ability": "Each night, choose a player: They recieve an INSURANCE TOKEN, and you learn how many tokens they have."
+"ability": "Each night, choose a player: They receive an INSURANCE TOKEN, and you learn how many tokens they have."
 },
 {
 "id": "Quarantine Specialist",
@@ -72,11 +72,11 @@
 "firstNightReminder":"",
 "otherNight": 12,
 "otherNightReminder": "@ Quarantine Specialist points to a player. Add a quarantine token on that player.",
-"reminders": ["T-Quarantine","Protected"],
+"reminders": ["T-Quarantine", "Protected"],
 "setup": false,
 "name": "Quarantine Specialist",
 "team": "townsfolk",
-"ability": "Each night*, choose a player: They recieve a QUARANTINE TOKEN."
+"ability": "Each night*, choose a player: They receive a QUARANTINE TOKEN."
 },
 {
 "id": "Mad Hatter",
@@ -118,15 +118,15 @@
 "ability": "At night, if you received a duplicate copy of a token, wake to choose a player. Learn their alignment, and discard all your tokens."
 },
 {
-"id": "Dionysus",
-"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/dionysus.png",
+"id": "James Watt",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/James%20Watt.png",
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 1,
 "otherNightReminder": "? IF a Minion was executed today: place the everyone drunk marker. ELSE: remove it.",
 "reminders": ["All drunk"],
 "setup": false,
-"name": "Dionysus",
+"name": "James Watt (1736-1819)",
 "team": "townsfolk",
 "ability": " When a Minion dies by execution, all other players are drunk until dusk tomorrow. Travellers are only drunk until dawn."
 },
@@ -138,7 +138,7 @@
 "otherNight": 0,
 "otherNightReminder": "",
 "reminders": [],
-"setup": true,
+"setup": false,
 "name": "Hacker",
 "team": "townsfolk",
 "ability": "Minions & Demons do not know each other. If you die, they learn who each other are that night."
@@ -209,15 +209,15 @@
 "ability": "You win if executed. When executed, a random Townsfolk dies tonight. You lose if you are alive at the end of the game. [+1 Clan Albion]"
 },
 {
-"id": "5D Pawn",
-"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/chess-pawn-EKqREJ4-600.png",
+"id": "Misread the Rules",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/Misread%20the%20Rules.png",
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 0,
 "otherNightReminder": "",
 "reminders": ["5D pawn"],
 "setup": true,
-"name": "5D Pawn",
+"name": "Misread the Rules",
 "team": "outsider",
 "ability": "You think you are a Minion, but you are not. [+1 Hacker]"
 },
@@ -228,11 +228,11 @@
 "firstNightReminder":"@ The Society points to a player: that player is poisoned until dusk tomorrow, add a Regret token.",
 "otherNight": 11,
 "otherNightReminder": "@ The Society points to a player: that player is poisoned until dusk tomorrow, add a Regret token.",
-"reminders": ["T_Regret","Poisoned"],
+"reminders": ["T_Regret", "Poisoned"],
 "setup": false,
 "name": "Society of Falling Light",
 "team": "minion",
-"ability": "Each night, choose a player: They are poisoned until dusk tomorrow and recieve a REGRET TOKEN."
+"ability": "Each night, choose a player: They are poisoned until dusk tomorrow and receive a REGRET TOKEN."
 },
 {
 "id": "Bene Gesserit",
@@ -280,7 +280,7 @@
 "firstNightReminder":"",
 "otherNight": 21,
 "otherNightReminder": "@ The Demon Points to a player. That player, and all other players that visit them tonight dies.",
-"reminders": ["Van Hauge","Will die"],
+"reminders": ["Van Hauge", "Will die"],
 "setup": false,
 "name": "The Yin Brotherhood",
 "team": "demon",
@@ -318,7 +318,7 @@
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 24,
-"otherNightReminder": "@ The Demon Points to a player. That player dies. If 5 players were alive: the nearest good player recieves a fear token. ? IF a player reaches 2 fear tokens, they die.",
+"otherNightReminder": "@ The Demon Points to a player. That player dies. If 5 players were alive: the nearest good player receives a fear token. ? IF a player reaches 2 fear tokens, they die.",
 "reminders": ["T-Fear"],
 "setup": false,
 "name": "Shadows Flicker Like Flame",
