@@ -297,7 +297,7 @@
 "setup": true,
 "name": "Secret Hitler",
 "team": "demon",
-"ability": "Up to 2 players die each night*. You think you're a Townsfolk, and register as that Townsfolk, but aren't. Starting on day 3, evil wins if you or no living player is executed, town wins if 4 or less players live."
+"ability": "Up to 2 players die each night*. You think you're a Townsfolk, and register as that Townsfolk, but aren't. On day 3, the storyteller will announce that the game has entered Hitler zone: evil wins if you or no living player is executed, town wins if 3 or less players live."
 },
 {
 "id": "Deathwalker",
