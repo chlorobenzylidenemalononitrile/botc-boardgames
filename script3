@@ -37,7 +37,7 @@
 "setup": false,
 "name": "Woodland Alliance",
 "team": "townsfolk",
-"ability": "Each night, learn the first player to visit a living player with a SYMPATHY TOKEN. If it was no one, choose a player: they receive a SYMPATHY TOKEN."
+"ability": "Each night, learn the first player to target a living player with a SYMPATHY TOKEN. If it was no one, choose a player: they receive a SYMPATHY TOKEN."
 },
 {
 "id": "Clan Albion",
