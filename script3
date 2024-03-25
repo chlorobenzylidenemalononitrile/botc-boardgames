@@ -32,12 +32,12 @@
 "firstNight": 15,
 "firstNightReminder":"@ The WA points to a player. Add a sympathy token to that player.",
 "otherNight": 36,
-"otherNightReminder": "? IF 1 or more players visited an alive player with a sympathy token: point to those players. ELSE: @ The WA points to a player. Add a sympathy token to that player.",
+"otherNightReminder": "? IF players visited an alive player with a sympathy token: point to the first player. ELSE: @ The WA points to a player. Add a sympathy token to that player.",
 "reminders": ["T-Sympathy", "Visitor"],
 "setup": false,
 "name": "Woodland Alliance",
 "team": "townsfolk",
-"ability": "Each night, learn the 1st player to visit a living player with a SYMPATHY TOKEN. If it was no one, choose a player: they receive a SYMPATHY TOKEN."
+"ability": "Each night, learn the first player to visit a living player with a SYMPATHY TOKEN. If it was no one, choose a player: they receive a SYMPATHY TOKEN."
 },
 {
 "id": "Clan Albion",
@@ -154,7 +154,7 @@
 "setup": false,
 "name": "Loyal Servant Of Arthur",
 "team": "townsfolk",
-"ability": "On your 1st day, publicly choose a team of 5 players. That night, learn if the team has 4 or more players of good alignment."
+"ability": "On your first day, publicly choose a team of 5 players. That night, learn if the team has 4+ players of good alignment."
 },
 {
 "id": "Quartermaster",
@@ -167,7 +167,7 @@
 "setup": false,
 "name": "Quartermaster",
 "team": "townsfolk",
-"ability": "Once per day, you may publicly choose a player. If you have 3 or more tokens and they are evil alignment, they die, and you discard all your tokens."
+"ability": "Once per day, you may publicly choose a player. If you have 3+ tokens and they are evil alignment, they die, and you discard all your tokens."
 },
 {
 "id": "RINNEGATO",
@@ -193,7 +193,7 @@
 "setup": true,
 "name": "Jester",
 "team": "outsider",
-"ability": "You win if executed. When executed, a random Townsfolk dies tonight. You lose if you are alive at the end of the game. [+1 Clan Albion]"
+"ability": "When executed, a random Townsfolk dies tonight. You lose if you are alive at the end of the game. [+1 Clan Albion]"
 },
 {
 "id": "Exile",
@@ -245,7 +245,7 @@
 "setup": true,
 "name": "Bene Gesserit",
 "team": "minion",
-"ability": "On your first night, predict on which day a Demon will be executed by a good player's nomination. If you are correct, the execution fails and the evil team wins instead. [+1 Outsider]"
+"ability": "On your first night, predict on which day a Demon will be executed by a good player's nomination. If you are correct, good loses and evil wins. [+1 Outsider]"
 },
 {
 "id": "Magus of Cloaks",
@@ -258,7 +258,7 @@
 "setup": false,
 "name": "Magus of Cloaks",
 "team": "minion",
-"ability": "The first time a minion is executed, gain their ability until dusk tomorrow. If the Demon is executed and at least 4 players are still alive, become the new Demon."
+"ability": "If the Demon is executed and 4+ players are still alive, become the new Demon. The first time a minion is executed, gain their ability until dusk tomorrow. "
 },
 {
 "id": "Destiny Bond",
@@ -279,12 +279,12 @@
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 21,
-"otherNightReminder": "@ The Demon Points to a player. That player, and all other players that visit them tonight dies. If they chose a Minion, they may choose another player.",
+"otherNightReminder": "@ The Demon Points to a player. That player, and all other players that visit them tonight dies. If they chose a Minion, and 3+ good players live, they may choose another player.",
 "reminders": ["Van Hauge", "Will die"],
 "setup": false,
 "name": "The Yin Brotherhood",
 "team": "demon",
-"ability": "Each night*, choose a player: that player and ALL other players who targeted them dies tonight. If you choose a Minion, you may choose an additional player."
+"ability": "Each night*, choose a player: that player and ALL other players who targeted them dies tonight. If you chose a Minion and 3+ good players are alive, you may choose an additional player."
 },
 {
 "id": "Secret Hitler",
@@ -297,7 +297,7 @@
 "setup": true,
 "name": "Secret Hitler",
 "team": "demon",
-"ability": "Up to 2 players die each night*. You think you're a Townsfolk, and register as that Townsfolk, but aren't. Starting on day 3, evil wins if you or no living player is executed, town wins at night if 4 or less players live."
+"ability": "Up to 2 players die each night*. You think you're a Townsfolk, and register as that Townsfolk, but aren't. Starting on day 3, evil wins if you or no living player is executed, town wins if 4 or less players live."
 },
 {
 "id": "Deathwalker",
@@ -310,7 +310,7 @@
 "setup": false,
 "name": "Deathwalker",
 "team": "demon",
-"ability": "When 5 or more players are alive: learn an in-play character. If you kill the learned character, you may kill a second player. Each night*, choose a player: they die."
+"ability": "When 5+ players are alive: learn an in-play character. If you kill the learned character, you may kill a second player. Each night*, choose a player: they die."
 },
 {
 "id": "Shadows Flicker Like Flame",
@@ -323,7 +323,7 @@
 "setup": false,
 "name": "Shadows Flicker Like Flame",
 "team": "demon",
-"ability": "When 5 or more players are alive: a FEAR TOKEN is placed on the next clockwise good player to players you kill. Each night*, choose a player: they die. Players with 2 FEAR TOKENS also die."
+"ability": "When 5+ players are alive: a FEAR TOKEN is placed on the next clockwise good player to players you kill. Each night*, choose a player: they die. Players with 2 FEAR TOKENS also die."
 },
 {
 "id": "Mr. Monopoly",
