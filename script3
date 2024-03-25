@@ -240,12 +240,12 @@
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 8,
-"otherNightReminder": "? IF: the Demon was executed today and 4+ players live, the Magus becomes the new Demon. IF: a Minion was executed, the Magus may use their ability tonight.",
+"otherNightReminder": "? IF: the Demon was executed today and 4+ players live, the Magus becomes the new Demon. IF: a Minion died, the Magus may use their ability tonight.",
 "reminders": [],
 "setup": false,
 "name": "Magus of Cloaks",
 "team": "minion",
-"ability": "If there are 5+ players alive and the demon dies, you become the new Demon. The first time a minion is executed, gain their ability until dusk tomorrow."
+"ability": "If there are 5+ players alive and the demon dies, you become the new Demon. The first time a minion dies, gain their ability until dusk tomorrow."
 },
 {
 "id": "Destiny Bond",
