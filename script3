@@ -305,12 +305,12 @@
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 24,
-"otherNightReminder": "@ The Demon Points to a player. That player dies. If 5 players were alive: the nearest good player receives a fear token. ? IF a player reaches 2 fear tokens, they die.",
+"otherNightReminder": "@ The Demon Points to a player. That player dies. If 5 players were alive: the next clockwise alive good player receives a fear token. ? IF a player reaches 2 fear tokens, they die.",
 "reminders": ["T-Fear"],
 "setup": false,
 "name": "Shadows Flicker Like Flame",
 "team": "demon",
-"ability": "When 5+ players are alive: a FEAR TOKEN is placed on the next clockwise good player to players you kill. Each night*, choose a player: they die. Players with 2 FEAR TOKENS also die."
+"ability": "When 5+ players are alive: a FEAR TOKEN is placed on the next clockwise living good player to whom you kill. Each night*, choose a player: they die. Players with 2 FEAR TOKENS also die."
 },
 {
 "id": "Mr. Monopoly",
