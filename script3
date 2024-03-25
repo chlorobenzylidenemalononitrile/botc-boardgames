@@ -128,7 +128,7 @@
 "setup": false,
 "name": "James Watt (1736-1819)",
 "team": "townsfolk",
-"ability": "When a Minion dies by execution, all other players are drunk until dusk tomorrow. Travellers are only drunk until dawn."
+"ability": "When a Minion dies by execution, all other players (except Travellers) are drunk until dusk tomorrow."
 },
 {
 "id": "Loyal Servant Of Arthur",
