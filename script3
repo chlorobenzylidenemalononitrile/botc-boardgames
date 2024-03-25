@@ -79,19 +79,6 @@
 "ability": "Each night*, choose a player: They receive a QUARANTINE TOKEN."
 },
 {
-"id": "Mad Hatter",
-"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/mad%20hatter.png",
-"firstNight": 0,
-"firstNightReminder":"",
-"otherNight": 33,
-"otherNightReminder": "? IF there is a player that was most mad the Mad Hatter was evil, show that player's character token and another character token of opposite alignment.",
-"reminders": [],
-"setup": false,
-"name": "Mad Hatter",
-"team": "townsfolk",
-"ability": "Each night*, learn 1 good & 1 evil character, 1 of which is the character of the player that was the most mad you were evil yesterday, if applicable."
-},
-{
 "id": "Necromancer",
 "image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/necromancer.png",
 "firstNight": 0,
@@ -118,6 +105,19 @@
 "ability": "At night, if you received a duplicate copy of a token, wake to choose a player. Learn their alignment, and discard all your tokens."
 },
 {
+"id": "Quartermaster",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/quartermaster.png",
+"firstNight": 0,
+"firstNightReminder":"",
+"otherNight": 0,
+"otherNightReminder": "",
+"reminders": [],
+"setup": false,
+"name": "Quartermaster",
+"team": "townsfolk",
+"ability": "Once per day, you may publicly choose a player. If you have 3+ tokens and they are evil alignment, they die, and you discard all your tokens."
+},
+{
 "id": "James Watt",
 "image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/James%20Watt.png",
 "firstNight": 0,
@@ -129,19 +129,6 @@
 "name": "James Watt (1736-1819)",
 "team": "townsfolk",
 "ability": "When a Minion dies by execution, all other players are drunk until dusk tomorrow. Travellers are only drunk until dawn."
-},
-{
-"id": "Hacker",
-"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/hacker.png",
-"firstNight": 1,
-"firstNightReminder":"Skip the Minion info and Demon info phase.",
-"otherNight": 0,
-"otherNightReminder": "",
-"reminders": [],
-"setup": false,
-"name": "Hacker",
-"team": "townsfolk",
-"ability": "Minions & Demons do not know each other. If you die, they learn who each other are that night."
 },
 {
 "id": "Loyal Servant Of Arthur",
@@ -157,17 +144,17 @@
 "ability": "On your first day, publicly choose a team of 5 players. That night, learn if the team has 4+ players of good alignment."
 },
 {
-"id": "Quartermaster",
-"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/quartermaster.png",
-"firstNight": 0,
-"firstNightReminder":"",
+"id": "Hacker",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/hacker.png",
+"firstNight": 1,
+"firstNightReminder":"Skip the Minion info and Demon info phase.",
 "otherNight": 0,
 "otherNightReminder": "",
 "reminders": [],
 "setup": false,
-"name": "Quartermaster",
+"name": "Hacker",
 "team": "townsfolk",
-"ability": "Once per day, you may publicly choose a player. If you have 3+ tokens and they are evil alignment, they die, and you discard all your tokens."
+"ability": "Minions & Demons do not know each other. If you die, they learn who each other are that night."
 },
 {
 "id": "RINNEGATO",
