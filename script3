@@ -148,13 +148,13 @@
 "image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/hacker.png",
 "firstNight": 1,
 "firstNightReminder":"Skip the Minion info and Demon info phase.",
-"otherNight": 0,
-"otherNightReminder": "",
+"otherNight": 7,
+"otherNightReminder": "If the Hacker dies, show Minion info and Demon info.",
 "reminders": [],
 "setup": false,
 "name": "Hacker",
 "team": "townsfolk",
-"ability": "Minions & Demons do not know each other. If you die, they learn who each other are that night."
+"ability": "You are immune to drunk and poison. Minions & Demons do not know each other. If you die, they learn who each other are that night."
 },
 {
 "id": "RINNEGATO",
@@ -239,7 +239,7 @@
 "image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/magus%20of%20cloaks.png",
 "firstNight": 0,
 "firstNightReminder":"",
-"otherNight": 7,
+"otherNight": 8,
 "otherNightReminder": "? IF: the Demon was executed today and 4+ players live, the Magus becomes the new Demon. IF: a Minion was executed, the Magus may use their ability tonight.",
 "reminders": [],
 "setup": false,
