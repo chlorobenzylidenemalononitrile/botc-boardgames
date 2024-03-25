@@ -245,7 +245,7 @@
 "setup": false,
 "name": "Magus of Cloaks",
 "team": "minion",
-"ability": "If the Demon is executed and 4+ players are still alive, become the new Demon. The first time a minion is executed, gain their ability until dusk tomorrow. "
+"ability": "If there are 5+ players alive and the demon dies, you become the new Demon. The first time a minion is executed, gain their ability until dusk tomorrow."
 },
 {
 "id": "Destiny Bond",
