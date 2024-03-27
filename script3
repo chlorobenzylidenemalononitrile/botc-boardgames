@@ -79,6 +79,19 @@
 "ability": "Each night*, choose a player: They receive a QUARANTINE TOKEN."
 },
 {
+"id": "Mad Hatter",
+"image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/mad%20hatter.png",
+"firstNight": 0,
+"firstNightReminder":"",
+"otherNight": 33,
+"otherNightReminder": "@ The Mad Hatter points to 3 different players, not themselves. Show the head signal according to the number of Townsfolk.",
+"reminders": [],
+"setup": false,
+"name": "Mad Hatter",
+"team": "townsfolk",
+"ability": "Each night*, choose a party of 3 different players (not yourself): Learn if at least 2 players are Townsfolk."
+},
+{
 "id": "Necromancer",
 "image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/necromancer.png",
 "firstNight": 0,
@@ -271,7 +284,7 @@
 "setup": false,
 "name": "The Yin Brotherhood",
 "team": "demon",
-"ability": "Each night*, choose a player: that player and ALL other players who targeted them dies tonight. If you chose a Minion and 3+ good players are alive, you may choose an additional player."
+"ability": "Each night*, choose a player: that player and ALL other players who target them tonight die, regardless of night order. If you chose a Minion and 3+ good players are alive, you may choose an additional player."
 },
 {
 "id": "Secret Hitler",
