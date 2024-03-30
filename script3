@@ -323,7 +323,7 @@
 "setup": false,
 "name": "Shadows Flicker Like Flame",
 "team": "demon",
-"ability": "Each night*, choose a player: they die. When 5+ players are alive: a FEAR TOKEN is placed on the next clockwise living good player to whom you target and kill: Their abilities have no effect on you, and you register as good to them. Players with 2 FEAR TOKENS die."
+"ability": "Each night*, choose a player: they die. When 5+ players are alive: a FEAR TOKEN is placed on the next clockwise living good player to your target: Their abilities have no effect on you, and you register as good to them. Players with 2 FEAR TOKENS die."
 },
 {
 "id": "Mr. Monopoly",
