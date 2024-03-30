@@ -3,7 +3,7 @@
 {
 "id": "Forensic Scientist",
 "image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/forensic%20sci.png",
-"firstNight": 11,
+"firstNight": 10,
 "firstNightReminder":"Show the token of whichever Demon is in play.", 
 "otherNight": 26,
 "otherNightReminder": "? IF the Demon killed the forensic scientist: show the hand symbol for how many pairs of evil players.",
@@ -16,7 +16,7 @@
 {
 "id": "Ambassador",
 "image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/ambassador.png",
-"firstNight": 12,
+"firstNight": 11,
 "firstNightReminder":"Show 2 character tokens, both in-play.",
 "otherNight": 3,
 "otherNightReminder": "? IF the Ambassador challenged today: Kill accordingly.",
@@ -32,12 +32,12 @@
 "firstNight": 15,
 "firstNightReminder":"@ The WA points to a player. Add a sympathy token to that player.",
 "otherNight": 36,
-"otherNightReminder": "? IF players visited an alive player with a sympathy token: point to one of them. ELSE: @ The WA points to a player. Add a sympathy token to that player.",
+"otherNightReminder": "? IF player(s) visited an alive player with a sympathy token: point to one of them. END IF. @ The WA points to a player. Add a sympathy token to that player.",
 "reminders": ["T-Sympathy", "Visitor"],
 "setup": false,
 "name": "Woodland Alliance",
 "team": "townsfolk",
-"ability": "Each night, learn one player that targeted a living player with a SYMPATHY TOKEN. If it was no one, choose a player: they receive a SYMPATHY TOKEN."
+"ability": "Each night, learn one player that targeted a living player with a SYMPATHY TOKEN. Choose a player: they receive a SYMPATHY TOKEN."
 },
 {
 "id": "Clan Albion",
@@ -45,12 +45,12 @@
 "firstNight": 13,
 "firstNightReminder":"@ Albion points to a player. Add a flag token to that player.",
 "otherNight": 34,
-"otherNightReminder": "? IF Albion was executed today: show the hand signal for the number of good-aligned players with a flag token. ELSE: @ Albion points to a player. Add a flag token to that player.",
+"otherNightReminder": "? IF Albion was killed by the Demon: show the hand signal for the number of good-aligned players with a flag token. ELSE: @ Albion points to a player. Add a flag token to that player.",
 "reminders": ["T-Flag"],
 "setup": false,
 "name": "Clan Albion",
 "team": "townsfolk",
-"ability": "Each night, choose a player to place a FLAG TOKEN. If you are executed, learn how many good players have a FLAG TOKEN that night."
+"ability": "Each night, choose a player to place a FLAG TOKEN. If the Demon kills you, learn how many good players have a FLAG TOKEN that night."
 },
 {
 "id": "Mons Insurance",
@@ -76,20 +76,20 @@
 "setup": false,
 "name": "Quarantine Specialist",
 "team": "townsfolk",
-"ability": "Each night*, choose a player: They receive a QUARANTINE TOKEN: If an evil player visits this player at night, they are drunk until dusk tomorrow."
+"ability": "Each night*, choose a player: They receive a QUARANTINE TOKEN: Evil players that target this player TONIGHT are drunk until dusk tomorrow."
 },
 {
 "id": "Mad Hatter",
 "image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/mad%20hatter.png",
-"firstNight": 0,
-"firstNightReminder":"",
+"firstNight": 12,
+"firstNightReminder":"@ The Mad Hatter points to 3 different players, not themselves. Show the head signal according to the number of Townsfolk.",
 "otherNight": 33,
 "otherNightReminder": "@ The Mad Hatter points to 3 different players, not themselves. Show the head signal according to the number of Townsfolk.",
 "reminders": [],
 "setup": false,
 "name": "Mad Hatter",
 "team": "townsfolk",
-"ability": "Each night*, choose a party of 3 different players (not yourself): Learn if at least 2 players are Townsfolk."
+"ability": "Each night, choose a party of 3 different players (not yourself): Learn if at least 2 are Townsfolk."
 },
 {
 "id": "Necromancer",
@@ -167,7 +167,7 @@
 "setup": false,
 "name": "Hacker",
 "team": "townsfolk",
-"ability": "You are immune to drunk and poison. Minions & Demons do not know each other. If you die, they learn who each other are that night."
+"ability": "You are immune to drunk. Minions & Demons do not know each other. If you die, they learn who each other are next dusk."
 },
 {
 "id": "RINNEGATO",
@@ -180,7 +180,7 @@
 "setup": false,
 "name": "RINNEGATO",
 "team": "outsider",
-"ability": "The first time you would die from the Demon, don't. If you survive until the final 3 players, you may shoot the other 2 players, and win alone."
+"ability": "The first time you would die from the Demon, don't. If you survive until the final 3 players, you may shoot the other 2, and win alone."
 },
 {
 "id": "Jester",
@@ -232,7 +232,7 @@
 "setup": false,
 "name": "Society of Falling Light",
 "team": "minion",
-"ability": "Each night*, choose a player: They receive a REGRET TOKEN: If they have a night ability, their action or information is what it would have been last night."
+"ability": "Each night*, choose a player: They receive a REGRET TOKEN: their night action, information, and target is what it would have been last night, even if you die."
 },
 {
 "id": "Bene Gesserit",
@@ -264,7 +264,7 @@
 "id": "Destiny Bond",
 "image": "https://raw.githubusercontent.com/Awedish/botc-boardgames/main/destiny%20bond.png",
 "firstNight": 4,
-"firstNightReminder":"@ The Destiny Bond points to a player. If that player is executed tomorrow, the nominator also dies.",
+"firstNightReminder":"@ The Destiny Bond points to a player: if that player is executed tomorrow, the nominator also dies.",
 "otherNight": 13,
 "otherNightReminder": "? IF: Destiny bond triggered: Don't wake this player. ELSE: @ The Destiny Bond points to a player. If that player is executed tomorrow, the nominator also dies.",
 "reminders": ["Destiny"],
@@ -279,7 +279,7 @@
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 21,
-"otherNightReminder": "@ The Demon Points to a player. That player, and all other players that visit them tonight dies. If they chose a Minion, and 3+ good players live, they may choose another player.",
+"otherNightReminder": "@ The Demon Points to a player. That player, and all other players that target them tonight dies. If they chose a Minion, and 3+ good players live, they may choose another player.",
 "reminders": ["Van Hauge", "Will die"],
 "setup": false,
 "name": "The Yin Brotherhood",
@@ -297,7 +297,7 @@
 "setup": true,
 "name": "Secret Hitler",
 "team": "demon",
-"ability": "Up to 2 players die each night*. You think you're a Townsfolk, and register as that Townsfolk, but aren't. On day 3, the storyteller will announce that the game has entered Hitler zone: evil wins if you or no living player is executed, town wins if 3 or less players live."
+"ability": "Up to 2 players die each night*. You think you're a Townsfolk, and register as that Townsfolk, but aren't. On day 3, the storyteller will announce we are in Hitler zone: evil wins if you or no living player is executed, town wins if 3- players live."
 },
 {
 "id": "Deathwalker",
@@ -310,7 +310,7 @@
 "setup": false,
 "name": "Deathwalker",
 "team": "demon",
-"ability": "When 5+ players are alive: learn an in-play character. If you kill the learned character, you may kill a second player. Each night*, choose a player: they die."
+"ability": "Each night*, choose a player: they die. When 5+ players are alive: learn ONE in-play character. If you kill the learned character, you may kill a second player."
 },
 {
 "id": "Shadows Flicker Like Flame",
@@ -323,7 +323,7 @@
 "setup": false,
 "name": "Shadows Flicker Like Flame",
 "team": "demon",
-"ability": "When 5+ players are alive: a FEAR TOKEN is placed on the next clockwise living good player to whom you kill: Their abilities have no effect on you, and you register as good to them if possible. Each night*, choose a player: they die. Players with 2 FEAR TOKENS also die."
+"ability": "Each night*, choose a player: they die. When 5+ players are alive: a FEAR TOKEN is placed on the next clockwise living good player to whom you kill: Their abilities have no effect on you, and you register as good to them. Players with 2 FEAR TOKENS die."
 },
 {
 "id": "Mr. Monopoly",
@@ -397,6 +397,6 @@
 "setup": false,
 "name": "Awedish",
 "team": "fabled",
-"ability": "Some characters leave tokens on other players. Players may have multiple copies of the same token, but duplicate copies have no effect, except to increase token count. All tokens persist between nights, even when the character dies. Dead players are not affected by token effects."
+"ability": "Some characters leave tokens on other players. Players may have multiple copies of the same token, but duplicate copies have no effect, except to increase token count. All tokens persist between nights, even when the character dies."
 }
 ]
