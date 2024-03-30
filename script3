@@ -193,7 +193,7 @@
 "setup": true,
 "name": "Jester",
 "team": "outsider",
-"ability": "When executed: at night, pick a player that voted: they die. You lose if you are alive at the end of the game. [+1 Clan Albion]"
+"ability": "When executed: at night, pick a player that voted for you: they die. You lose if you are alive at the end of the game. [+1 Clan Albion]"
 },
 {
 "id": "Exile",
@@ -232,7 +232,7 @@
 "setup": false,
 "name": "Society of Falling Light",
 "team": "minion",
-"ability": "Each night*, choose a player to place a REGRET TOKEN on. If they have a night ability, their action or information is what it would have been last night."
+"ability": "Each night*, choose a player: They receive a REGRET TOKEN: If they have a night ability, their action or information is what it would have been last night."
 },
 {
 "id": "Bene Gesserit",
