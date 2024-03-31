@@ -24,7 +24,7 @@
 "setup": false,
 "name": "Ambassador",
 "team": "townsfolk",
-"ability": "You start knowing 2 in-play characters. Once per game, you may challenge a player's public role claim. Tonight, if they were the role they claimed, you die. If not, they die."
+"ability": "You start knowing 2 in-play characters. Once per game, you may challenge a player's public role claim. If they weren't the role they claimed, they die tonight."
 },
 {
 "id": "Woodland Alliance",
