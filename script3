@@ -102,7 +102,7 @@
 "setup": false,
 "name": "Necromancer",
 "team": "townsfolk",
-"ability": "Once per game, at night*, you may choose a dead player: If you have at least 1 token and they are a Townsfolk, they are resurrected."
+"ability": "Once per game, at night*, even if you die, you may choose a dead player: If you have at least 1 token and they are a Townsfolk, they are resurrected. "
 },
 {
 "id": "Seer",
@@ -136,12 +136,12 @@
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 1,
-"otherNightReminder": "? IF a Minion was executed today: place the everyone drunk marker. ELSE: remove it.",
-"reminders": ["All drunk"],
+"otherNightReminder": "? IF a Minion was executed today: place corresponding drunk markers for a day.",
+"reminders": ["Drunk"],
 "setup": false,
 "name": "James Watt (1736-1819)",
 "team": "townsfolk",
-"ability": "When a Minion dies by execution, all other players (except Travellers) are drunk until dusk tomorrow."
+"ability": "If a Minion died today, the Demon and one other Townsfolk are drunk until dusk tomorrow."
 },
 {
 "id": "Loyal Servant Of Arthur",
@@ -279,12 +279,12 @@
 "firstNight": 0,
 "firstNightReminder":"",
 "otherNight": 21,
-"otherNightReminder": "@ The Demon Points to a player. That player, and all other players that target them tonight dies. If they chose a Minion, and 3+ good players live, they may choose another player.",
+"otherNightReminder": "@ The Demon Points to a player. That player, and all other players that target them tonight dies. When 5+ players are alive: if they chose a Minion, they may choose another player.",
 "reminders": ["Van Hauge", "Will die"],
 "setup": false,
 "name": "The Yin Brotherhood",
 "team": "demon",
-"ability": "Each night*, choose a player: that player and ALL other players who target them tonight die, regardless of night order. If you chose a Minion and 3+ good players are alive, you may choose an additional player."
+"ability": "Each night*, choose a player: that player and ALL other players who target them tonight die, regardless of night order. When 5+ players are alive: if you chose a Minion, you may choose an additional player."
 },
 {
 "id": "Secret Hitler",
